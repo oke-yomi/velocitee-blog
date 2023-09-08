@@ -8,7 +8,7 @@ This is a simple blog application built using Next.js. The blog has the followin
 * The ability to view blog posts in a list or a grid.
 
 
-The application is responsive and works on all major browsers.
+The application should be responsive and works on all major browsers.
 
 ## Requirements
 
