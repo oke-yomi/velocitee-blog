@@ -2,7 +2,7 @@
 
 # Simple Blog Application
 
-This is a simple blog application built using Next.js. The blog has the following features:
+Create a simple blog application built using Next.js. The blog has the following features:
 
 * The ability to create, edit, and delete blog posts.
 * The ability to view blog posts in a list or a grid.
@@ -14,7 +14,6 @@ The application should be responsive and work on all major browsers.
 
 * Node.js
 * Yarn
-* A database (such as MongoDB or MySQL)
 
 ## Installation
 
