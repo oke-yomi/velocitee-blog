@@ -2,6 +2,8 @@
 
 # Simple Blog Application
 
+Please fork this repo 
+
 Create a simple blog application built using Next.js. The blog has the following features:
 
 * The ability to create, edit, and delete blog posts.
