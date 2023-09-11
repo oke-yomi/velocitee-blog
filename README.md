@@ -18,9 +18,6 @@ The application should be responsive and works on all major browsers.
 
 ## Installation
 
-1. Clone the repository:
-
-2. 
 Sure, here is a sample README file for the GitHub task:
 
 # Simple Blog Application
