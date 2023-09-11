@@ -8,7 +8,7 @@ This is a simple blog application built using Next.js. The blog has the followin
 * The ability to view blog posts in a list or a grid.
 
 
-The application should be responsive and works on all major browsers.
+The application should be responsive and work on all major browsers.
 
 ## Requirements
 
@@ -35,25 +35,9 @@ The application is responsive and works on all major browsers.
 
 * Node.js
 * Yarn
-* A database (such as MongoDB or MySQL)
 
-## Installation
 
-1. Clone the repository:
-
-2. Install the dependencies:
-
-yarn install
-
-3. Create a database and configure the application's `.env` file.
-
-4. Start the application:
-
-yarn dev
-
-The application will be available at http://localhost:3000.
-
-Usage
+Task
 To create a new blog post, click the "Create Post" button. Enter the title and content of the post, and then click the "Create" button.
 
 To edit a blog post, click the "Edit" button next to the post. Make your changes, and then click the "Save" button.
