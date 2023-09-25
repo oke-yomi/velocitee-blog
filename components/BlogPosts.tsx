@@ -21,7 +21,7 @@ const BlogPosts = ({ fetchError, posts, updateLike, likes, grid }: Props) => {
 
       {(!posts || posts.length < 1) && (
         <div className="flex justify-center items-center h-[40vh]">
-          <p className="text-xl font-medium text-gray-700">Posts not found</p>
+          <p className="text-xl font-medium text-gray-700">Searching...</p>
         </div>
       )}
 
