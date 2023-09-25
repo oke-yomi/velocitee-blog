@@ -1,9 +1,14 @@
+import Navbar from "@/components/Navbar";
 import "./globals.css";
-import { Footer, Navbar } from "@/components";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 
-export const metadata = {
-  title: "Velocitee Blog",
-  description: "Velocitee Blog with Nextjs, typescript and Graphql",
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Blog website for Velocitee",
+  description:
+    "Blog website for Velocitee using Nextjs, typescript and supabase",
 };
 
 export default function RootLayout({
@@ -13,10 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
+      <body className={inter.className}>
+        <main className="max-w-7xl mx-auto px-8">
+          <Navbar />
+          {children}
+        </main>
       </body>
     </html>
   );

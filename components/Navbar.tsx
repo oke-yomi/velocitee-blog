@@ -1,41 +1,22 @@
-import { NavLinks } from "@/constants";
 import Link from "next/link";
-import { AuthProviders } from ".";
+import React from "react";
 
 const Navbar = () => {
-  const session = null;
-
   return (
-    <nav className="flexBetween navbar">
-      <div className="flex-1 flexStart gap-10">
-        <Link href={"/"}>
-          <p className="text-pink-800 font-semibold text-xl capitalize">
-            Velocitee Blog
-          </p>
+    <div className="py-4 border-b">
+      <div className="flex justify-between items-center">
+        <h3 className="text-secondary font-medium text-2xl">
+          Velo<span className="text-primary">citee</span>
+        </h3>
+
+        <Link
+          href={"/create-post"}
+          className="border-none rounded-md px-4 py-2 bg-secondary text-offwhite text-sm"
+        >
+          Create New Post
         </Link>
-
-        <ul className="xl:flex hidden text-small gap-7">
-          {NavLinks.map((link) => (
-            <Link href={link.href} key={link.key}>
-              {link.text}
-            </Link>
-          ))}
-        </ul>
       </div>
-
-      <div className="flexCenter gap-4">
-        {session ? (
-          <>
-            User Photo
-            <Link href={"/"}>Create Post</Link>
-          </>
-        ) : (
-          <>
-            <AuthProviders />
-          </>
-        )}
-      </div>
-    </nav>
+    </div>
   );
 };
 
